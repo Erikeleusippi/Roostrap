@@ -220,8 +220,7 @@ describe ("Test cases for API",() => {
         
         expect(response.status).to.equal(200);
         cy.log('User name updated to Test 2.0!!');
-        EmailAccount = response.body.email;
-          
+                 
      });
     })      
 
